@@ -11,7 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LamdaExpression", "LamdaExp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncVsAct", "FuncVsAct\FuncVsAct.csproj", "{D9D15C98-FF6D-481B-AD1A-802CCCC0F098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryAndMethodSyntax", "QueryAndMethodSyntax\QueryAndMethodSyntax.csproj", "{160E671A-14FA-4128-9FDA-977A7D0F4495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryAndMethodSyntax", "QueryAndMethodSyntax\QueryAndMethodSyntax.csproj", "{160E671A-14FA-4128-9FDA-977A7D0F4495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFilterOperator", "CustomFilterOperator\CustomFilterOperator.csproj", "{667F742C-DE1E-4353-94AF-F89EC95261E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilteringOperators", "FilteringOperators\FilteringOperators.csproj", "{B99F0A49-5DC1-442D-943F-08CAFD9FBF85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingOperators", "SortingOperators\SortingOperators.csproj", "{58D6D65C-9BB1-45ED-9218-355ACA93F963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{316C2E55-5E94-4959-825D-102825734E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingOperators", "GroupingOperators\GroupingOperators.csproj", "{E3F74FC3-B33B-4BD4-8AEC-F16EE523B1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoiningOperator", "JoiningOperator\JoiningOperator.csproj", "{95B4DFC8-9AB4-4B81-B113-7F9B107F708B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +51,30 @@ Global
 		{160E671A-14FA-4128-9FDA-977A7D0F4495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{160E671A-14FA-4128-9FDA-977A7D0F4495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{160E671A-14FA-4128-9FDA-977A7D0F4495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667F742C-DE1E-4353-94AF-F89EC95261E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667F742C-DE1E-4353-94AF-F89EC95261E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667F742C-DE1E-4353-94AF-F89EC95261E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667F742C-DE1E-4353-94AF-F89EC95261E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99F0A49-5DC1-442D-943F-08CAFD9FBF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99F0A49-5DC1-442D-943F-08CAFD9FBF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99F0A49-5DC1-442D-943F-08CAFD9FBF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99F0A49-5DC1-442D-943F-08CAFD9FBF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D6D65C-9BB1-45ED-9218-355ACA93F963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D6D65C-9BB1-45ED-9218-355ACA93F963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D6D65C-9BB1-45ED-9218-355ACA93F963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D6D65C-9BB1-45ED-9218-355ACA93F963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316C2E55-5E94-4959-825D-102825734E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316C2E55-5E94-4959-825D-102825734E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316C2E55-5E94-4959-825D-102825734E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316C2E55-5E94-4959-825D-102825734E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F74FC3-B33B-4BD4-8AEC-F16EE523B1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F74FC3-B33B-4BD4-8AEC-F16EE523B1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F74FC3-B33B-4BD4-8AEC-F16EE523B1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F74FC3-B33B-4BD4-8AEC-F16EE523B1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B4DFC8-9AB4-4B81-B113-7F9B107F708B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B4DFC8-9AB4-4B81-B113-7F9B107F708B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B4DFC8-9AB4-4B81-B113-7F9B107F708B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B4DFC8-9AB4-4B81-B113-7F9B107F708B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
